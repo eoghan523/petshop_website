@@ -1,0 +1,76 @@
+/* General Styles */
+:root {
+   --font-primary: "Anton", cursive;
+   --font-secondary: "Open Sans", sans-serif;
+    --text-clr: #333;
+    --dark-blue: #345995;
+    --light-blue: #4392F1;
+    --clr-red: #D7263D;
+    --clr-yellow: #EAC435;
+    --clr-orange: #F46036;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-secondary);
+    font-size: 15px;
+    background-color: white;
+    color: var(--text-clr);   
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primary);
+    font-weight: normal;
+}
+h1 {
+    font-size: 110px;
+}
+h2 {
+    font-size: 30px;
+
+}
+
+.spacer .v20 {
+    height: 20px;
+}
+.spacer .v40 {
+    height: 40px;
+}
+.spacer .v80 {
+    height: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+#promo {
+    background-color:  var(--clr-orange);
+    padding: 15px;
+}
+
+#suscribe {
+
+}
+
+#footer {
+    text-align: center;
+    color: #fff;
+    min-width: 1000px;
+}
+
+.wrap { 
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+#topmenu {
+    height: 60px;
+}#toplinks {
+    float: right;
+    padding-top: 20px;
+}
+toplinks
